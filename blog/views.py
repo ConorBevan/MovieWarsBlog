@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView
 from django.http import HttpResponse
 from .models import Post
+from .forms import CreatePost
 
 
 # def home(request):
@@ -24,5 +25,5 @@ class BlogDetailView(DetailView):
 
 class AddPostView(CreateView):
     model = Post
+    form_class = CreatePost
     template_name = 'add_post.html'
-    fields = '__all__'
