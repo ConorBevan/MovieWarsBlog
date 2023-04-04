@@ -4,4 +4,11 @@
 
     <h1>Home Page</h1>
 
+    {% for post in object_list %}
+        {{ post.title }}
+        {{ post.author }}
+        {{ post.content }}
+        {{ post.featured_image }}
+    {% endfor %}
+
 {% endblock%}
