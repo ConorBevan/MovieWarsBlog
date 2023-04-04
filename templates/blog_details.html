@@ -8,5 +8,6 @@
     <p>{{ post.content}}</p>
     <a href="{% url 'home' %}" class="btn btn-sm btn-secondary">Back</a>
     <a href="{% url 'edit-blog' post.pk %}" class="btn btn-sm btn-danger">Edit</a>
+    <a href ="{% url 'delete-blog' post.pk %}" class="btn btn-sm btn-danger">Delete</a>
 
 {% endblock%}
