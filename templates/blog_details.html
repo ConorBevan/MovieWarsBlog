@@ -4,7 +4,7 @@
 {% block content %}
 
     <h1>{{ post.title }}</h1>
-    <h3>{{ post.author }}</h3>
+    <h4>{{ post.author }} - {{ post.post_date}}</h4>
     <p>{{ post.content}}</p>
     <a href="{% url 'home' %}" class="btn btn-sm btn-secondary">Back</a>
     <a href="{% url 'edit-blog' post.pk %}" class="btn btn-sm btn-danger">Edit</a>
