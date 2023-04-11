@@ -3,6 +3,7 @@
 
 {% block content %}
 
+{% if user.is_authenticated %}
     <h1>Edit Blog</h1>
 
     <div class="form-group">
@@ -13,5 +14,6 @@
             <button class="btn btn-success">Update</button>
         </form>
     </div>
+{% endif %}
 
 {% endblock%}
