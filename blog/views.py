@@ -18,6 +18,7 @@ class HomeView(ListView):
     model = Post
     template_name = 'home.html'
     ordering = ['-id']
+    paginate_by = 6
 
 
 class BlogDetailView(DetailView):
