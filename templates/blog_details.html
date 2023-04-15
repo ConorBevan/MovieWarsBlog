@@ -5,7 +5,7 @@
 
     <h1>{{ post.title }}</h1>
     <h4>{{ post.author }} - {{ post.post_date}}</h4>
-    <p>{{ post.content}}</p>
+    <p>{{ post.content|safe }}</p>
     <a href="{% url 'home' %}" class="btn btn-sm btn-secondary">Back</a>
     {% if user.is_authenticated %}
     <a href="{% url 'edit-blog' post.pk %}" class="btn btn-sm btn-warning">Edit</a>

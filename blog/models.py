@@ -6,7 +6,7 @@ from datetime import datetime, date
 
 
 class Post(models.Model):
-    title = models.CharField(max_length=300)
+    title = models.CharField(max_length=300, null=False)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     content = models.TextField()
     featured_image = CloudinaryField('image', default='placeholder')
