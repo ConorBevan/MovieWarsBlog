@@ -13,6 +13,9 @@ class Post(models.Model):
     featured_image = CloudinaryField('image', default='placeholder')
     post_date = models.DateField(auto_now_add=True)
 
+    def num_likes(self):
+        return self.likes.count()
+
     def __str__(self):
         return self.title
 

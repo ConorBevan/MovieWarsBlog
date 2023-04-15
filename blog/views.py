@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.http import HttpResponse
 from .models import Post
@@ -12,6 +12,7 @@ from django.urls import reverse_lazy
 
 # def about(request):
 #     return render(request, 'about.html')
+
 
 class HomeView(ListView):
     model = Post
