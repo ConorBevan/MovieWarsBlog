@@ -21,7 +21,7 @@
                     </div>
                     <div class="card-body">
                         <h3 class="h5"><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></h3>
-                        <p class="display-30">{{ post.content|slice:":150"|safe }}...</p>
+                        <p class="display-30">Click on read more to open this blog post!</p>
                         <a href="{% url 'blog-detail' post.pk %}" class="read-more btn btn-primary">Read More</a>
                     </div>
                     <div class="card-footer">
