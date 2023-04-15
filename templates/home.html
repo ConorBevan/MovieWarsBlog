@@ -7,6 +7,7 @@
     <div class="container">
         <div class="text-center">
             <h1 class="p-4 text-black">Blog Posts</h1>
+            <h4 class="p-4 text-black">This blog page is for movie goers to share there thoughts on their favourite or most hated movies. To upload your review you must create an account.</h4>
         </div>
         <div class="row">
             {% for post in object_list %}
@@ -14,7 +15,7 @@
                 <article class="card card-style2">
                     <div class="card-img">
                         {% if "placeholder" in post.featured_image.url %}
-                        <img class="card-img-top" src="https://tilt.goombastomp.com/wp-content/uploads/2017/05/Star-Wars-Lightsaber-Duels-Ranked.jpg">
+                        <img class="card-img-top" src="https://static.wikia.nocookie.net/ideas/images/e/e4/Movie_night.jpg/revision/latest?cb=20141222232947">
                         {% else %}
                         <img class="card-img-top" src="{{ post.featured_image.url }}">
                         {% endif %}
