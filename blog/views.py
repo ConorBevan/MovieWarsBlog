@@ -6,14 +6,6 @@ from .forms import CreatePost
 from django.urls import reverse_lazy
 
 
-# def home(request):
-#     return render(request, 'home.html')
-
-
-# def about(request):
-#     return render(request, 'about.html')
-
-
 class HomeView(ListView):
     model = Post
     template_name = 'home.html'

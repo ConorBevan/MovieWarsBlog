@@ -6,17 +6,20 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Playfair Display', serif;
-  }
+}
 
+/* Navbar */
 nav {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Footer */
 footer {
     margin-top: auto;
     font-family: 'Roboto', sans-serif;
-  }
+}
 
+/* General Styling */
 #blog-title {
     margin-top: 50px;
 }

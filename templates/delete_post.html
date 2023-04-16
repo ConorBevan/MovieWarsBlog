@@ -2,11 +2,12 @@
 {% block title %}Delete Blog Post{% endblock %}
 
 {% block content %}
-
+<!-- Delete Posts Section -->
 {% if user.is_authenticated %}
 <div id="blog-title">
     <h1>Delete Blog</h1>
     <h3>Are you sure you want to delete the blog: {{ post.title }}?</h3>
+    <!-- Delete Posts Form -->
     <div class="form-group" id="delete-buttons">
         <form method="POST">
             {% csrf_token %}
