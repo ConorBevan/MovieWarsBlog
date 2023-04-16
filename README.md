@@ -1,8 +1,8 @@
 # Welcome to **[Movie Wars Blog](deployedlinkhere)**
 
-The Movie Wars Blog website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to look and create a number of moview reviews.
+The Movie Wars Blog website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to look and create a number of movie reviews.
 
-![Movie Wars Blog on mnay devices]()
+![Movie Wars Blog on many devices]()
 
 [View Delployed Site]()
 
@@ -16,14 +16,14 @@ The site is a place for people to come and view other users submitted reviews/bl
 
 ### User Stories
 
-* As a website user, I can:
+As a website user, I can:
 
 1. Navigate around the site and easily view the desired content.
 2. View a list of blogs and choose accoirdingly.
 3. Click on post to read the blog details.
 4. Register for an account to get the perks offered to signed up users.
 
-* As logged in website user, I can:
+As logged in website user, I can:
 
 1. View blogs
 2. Add posts
@@ -31,7 +31,7 @@ The site is a place for people to come and view other users submitted reviews/bl
 4. Delete posts
 5. Logout from the website.
 
-* As a website superuser, I can:
+As a website superuser, I can:
 
 1. Create and publish new blogs
 2. Edit and delete new blogs
@@ -42,9 +42,7 @@ The site is a place for people to come and view other users submitted reviews/bl
 All functionality and development of this project were managed using GitHub which Projects can be found
 [here](https://github.com/ConorBevan/MovieWarsBlog/issues)
 
-### The Scope
-
-#### Main Site Goals
+### The Scope - Main Site Goals
 
 * To provide users with a good experience when using the website.
 * To provide users with a visually pleasing website that is intuitive to use and easy to navigate.
@@ -55,7 +53,7 @@ All functionality and development of this project were managed using GitHub whic
 
 ## Design
 
-#### Colour Scheme
+### Colour Scheme
 
 The website uses a simple colour layout used throughout the Movie Wars Blog. The colour scheme was based around using the [Boostrap](https://getbootstrap.com/docs/4.0/utilities/colors/).
 
@@ -85,15 +83,18 @@ Wireframes were created for mobile, tablet and desktop.
 
 - - - 
 
-## Features
+## Site Features
 
-The website is comprised of five pages, three of which are accessible when not logged in and other two appear when logged in (home page, books page & contact us page). The fourth page is a thank you page which is shown once a user submits the form on the contact us page.
+The website is comprised of five pages, three of which are accessible when not logged in and other two appear when logged in (home page, books page & contact us page).
 
 * All Pages on the website have:
   * A responsive navigation bar at the top which allows the user to navigate through the site. In the left of the navigation bar is the Movie Wars Blog logo. Beside the logo in the navigation bar are the links to the websites pages (home, add post, register, login and logout).
   * A footer which contains social media icon links to Instagram, Facebook, LinkedIn, Twitter and Github. There a copyright mark underneatyh the icons.
 
-* Home Page.
+ ### Home Page
+
+ ![Home Page](./assets/readme/home-page.png)
+
   * Page Title
   This states you are on the blog post section.
   * About Us Section
@@ -101,42 +102,59 @@ The website is comprised of five pages, three of which are accessible when not l
   * Blog Posts
   This section is a list of all the blogs/reviews uploaded to the site.
 
-* Register Page
+### Register Page
+
+![Register Page](./assets/readme/register.png)
+
   * This section is where new ueasers can sign up to acces hidden features in the site.
 
-* Login Page
+### Login Page
+
+![Login Page](./assets/readme/login.png)
+
   * This section is where new users can sign up to acces hidden features in the site.
 
-* Blog Deatils Page
+### Blog Deatils Page
+
+![Blog Details Page](./assets/readme/blog-details.png)
+
   * This section is where a user can view the contents of the blog which includes title, author, date posted, header image and content. If a user is logged in they will be able to edit and delete blog posts.
 
-* Add Post Page
+### Add Post Page
+
+![Add Post Page](./assets/readme/add-post.png)
+
   * This section where logged in users can create a blog post with a title, author, content and image.
 
-* Edit Post Page
+### Edit Post Page
+
+![Edit Post Page](./assets/readme/edit-post.png)
+
   * This section where logged in users can edit the blog of their choice. 
 
-* Delete Post Page
+### Delete Post Page
+
+![Delete Post Page](./assets/readme/delete.png)
+
   * This section where logged in users can delete a blog.
 
-* Logout Page
+### Logout Page
+
+![Logout Page](./assets/readme/logout.png)
+
   * This section where users can logout of their accounts. 
 
-* Signed in
-  * Top right of navbar lets users know when they are logged in.
-
-* Future Implementations.
+### Future Implementations.
   * Only allow a user to edit and delete posts that is theirs. 
   * Add category section to filter them in movie genres.
 
 ### Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+I have been mindful during coding to ensure that the website is as accessible and friendly as possible. I have achieved this by:
 
 * Using semantic HTML.
 * Using descriptive alt attributes on images on the site.
 * Ensuring that there is a sufficient colour contrast throughout the site.
-* Ensuring menus are accessible by marking the current page as current for screen readers.
 
 - - -
 
@@ -152,25 +170,16 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ### Frameworks, Libraries & Packages Used
 
-Git - For version control.
-
-Github - To save and store the files for the website.
-
-Bootstrap - Framework used to style the site. 
-
-Google Fonts - To import the fonts used on the website.
-
-Font Awesome - For the iconography on the website.
-
-Gunicorn - As the server for Heroku
-
-Cloudinary - Used to host media 
-
-Psycopg2 - As an adaptor for Python and PostgreSQL databases
-
-Django Allauth - For authentication, registration, account management
-
-Django CKEditor - As a text editor 
+* Git - For version control.
+* Github - To save and store the files for the website.
+* Bootstrap - Framework used to style the site. 
+* Google Fonts - To import the fonts used on the website.
+* Font Awesome - For the iconography on the website.
+* Gunicorn - As the server for Heroku
+* Cloudinary - Used to host media 
+* Psycopg2 - As an adaptor for Python and PostgreSQL databases
+* Django Allauth - For authentication, registration, account management
+* Django CKEditor - As a text editor 
 
 - - -
 
@@ -199,8 +208,6 @@ Testing was conducted continuously throughout the development of this project. M
 
 ### Deployment of This Project
 
-* This site was deployed by completing the following steps:
-
 1. Log in to [Heroku](https://id.heroku.com) or create an account
 2. On the main page click the button labelled New in the top right corner and from the drop-down menu select Create New
 App
@@ -227,15 +234,11 @@ App
 
 ### Forking This Project
 
-* Fork this project by following the steps:
-
 1. Open [GitHub](https://github.com/PedroCristo/portfolio_project_4)
 2. Find the 'Fork' button at the top right of the page
 3. Once you click the button the fork will be in your repository
 
 ### Cloning This Project
-
-* Clone this project by following the steps:
 
 1. Open [GitHub](https://github.com/PedroCristo/portfolio_project_4)
 2. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order
@@ -252,14 +255,15 @@ to copy the URL
 
 ### Content
 
-* All food blogs were taken from [Robert Ebert ](https://www.rogerebert.com/)
+* All movie blogs content was taken from [Robert Ebert ](https://www.rogerebert.com/)
 * The images were taken from [Google](https://images.google.com/)
 
 ### Information Sources / Resources
 
 * [W3Schools - Python](https://www.w3schools.com/python/)
 * [Stack Overflow](https://stackoverflow.com/)
+* [Django Project](https://www.djangoproject.com/)
 
 ### Honourable Mentions
 
-* Special thanks to my mentor Jubril Akolode for his assistance throughout this project.
+* Special thanks to my mentor Jubril Akolade for his assistance throughout this project.
