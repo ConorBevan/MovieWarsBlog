@@ -124,25 +124,31 @@ The website is comprised of five pages, three of which are accessible when not l
 
 ![Add Post Page](./assets/readme/add-post.png)
 
-  * This section where logged in users can create a blog post with a title, author, content and image.
+  * This section is where logged in users can create a blog post with a title, author, content and image.
 
 ### Edit Post Page
 
 ![Edit Post Page](./assets/readme/edit-post.png)
 
-  * This section where logged in users can edit the blog of their choice. 
+  * This section is where logged in users can edit the blog of their choice. 
 
 ### Delete Post Page
 
 ![Delete Post Page](./assets/readme/delete.png)
 
-  * This section where logged in users can delete a blog.
+  * This section is where logged in users can delete a blog.
 
 ### Logout Page
 
 ![Logout Page](./assets/readme/logout.png)
 
-  * This section where users can logout of their accounts. 
+  * This section is where users can logout of their accounts. 
+
+### Admin Panel
+
+![Admin Panel](./assets/readme/admin.png)
+
+  * This section is where as an admin/superuser I have full access to CRUD functionality so I can view, create, edit and delete posts.
 
 ### Future Implementations.
   * Only allow a user to edit and delete posts that is theirs. 
