@@ -6,7 +6,9 @@ The Movie Wars Blog website is designed to be responsive website allowing visito
 
 [View Delployed Site]()
 
-## User Experience (UX)
+- - -
+
+## User Experience
 
 ### Key information for the site
 
@@ -49,6 +51,8 @@ All functionality and development of this project were managed using GitHub whic
 * To provide a website with a clear purpose.
 * To provide role-based permissions that allows user to interact with.
 
+- - -
+
 ## Design
 
 #### Colour Scheme
@@ -73,11 +77,15 @@ Wireframes were created for mobile, tablet and desktop.
 
 [Home Page Wireframe]()
 
+- - -
+
 ## Database Diagram
 
 ![Database Diagrama]()
 
-### Features
+- - - 
+
+## Features
 
 The website is comprised of five pages, three of which are accessible when not logged in and other two appear when logged in (home page, books page & contact us page). The fourth page is a thank you page which is shown once a user submits the form on the contact us page.
 
@@ -172,7 +180,9 @@ Testing was conducted continuously throughout the development of this project. M
 
 - - -
 
-## Creating the Django app
+## Deployment
+
+### Creating the Django app
 
 1. Go to the Code Institute Gitpod Full Template [Template](https://github.com/Code-Institute-Org/gitpod-full-template)
 2. Click on Use This Template
@@ -187,7 +197,7 @@ Testing was conducted continuously throughout the development of this project. M
 11. Migrate changes: in the terminal window type python3 manage.py migrate
 12. Run the server to test if the app is installed, in the terminal window type python3 manage.py runserver
 
-## Deployment of This Project
+### Deployment of This Project
 
 * This site was deployed by completing the following steps:
 
@@ -208,14 +218,14 @@ App
 14. Scroll to the bottom of the deploy page and select the preferred deployment type
 15. Click either Enable Automatic Deploys for automatic deployment when you push updates to Github
 
-## Final Deployment 
+### Final Deployment 
 
 1. When development is complete change the debug setting to: `DEBUG = False` in settings.py
 2. In this project the summernote editor was used so for this to work in Heroku add: `X_FRAME_OPTIONS = SAMEORIGIN `to
    settings.py.
 3. In Heroku settings, delete the config vars for `DISABLE_COLLECTSTATIC = 1`
 
-## Forking This Project
+### Forking This Project
 
 * Fork this project by following the steps:
 
@@ -223,7 +233,7 @@ App
 2. Find the 'Fork' button at the top right of the page
 3. Once you click the button the fork will be in your repository
 
-## Cloning This Project
+### Cloning This Project
 
 * Clone this project by following the steps:
 
@@ -235,6 +245,8 @@ to copy the URL
 5. Change the current working directory to the location that you want the cloned directory
 6. Type 'git clone' and paste the URL copied in step 3
 7. Press 'Enter' and the project is cloned
+
+- - - 
 
 ## Credits
 
@@ -248,7 +260,6 @@ to copy the URL
 * [W3Schools - Python](https://www.w3schools.com/python/)
 * [Stack Overflow](https://stackoverflow.com/)
 
-
-## Honourable Mentions
+### Honourable Mentions
 
 * Special thanks to my mentor Jubril Akolode for his assistance throughout this project.
