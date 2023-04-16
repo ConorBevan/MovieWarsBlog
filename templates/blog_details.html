@@ -3,20 +3,31 @@
 
 {% block content %}
 
-    <h1>{{ post.title }}</h1>
-    <h4>{{ post.author }} - {{ post.post_date}}</h4>
-    {% if user.is_authenticated %}
-    <a href="{% url 'edit-blog' post.pk %}" class="btn btn-sm btn-warning">Edit</a>
-    <a href ="{% url 'delete-blog' post.pk %}" class="btn btn-sm btn-danger">Delete</a>
-    {% endif %}
-    <a href="{% url 'home' %}" class="btn btn-sm btn-secondary">Back</a>
-    <hr>
-    {% if "placeholder" in post.featured_image.url %}
-    <img class="card-img-top" src="https://tilt.goombastomp.com/wp-content/uploads/2017/05/Star-Wars-Lightsaber-Duels-Ranked.jpg">
-    {% else %}
-    <img class="card-img-top" src="{{ post.featured_image.url }}">
-    {% endif %}
-    <p>{{ post.content|safe }}</p>
-    <hr>
+<div>
+    <div>
+        <h1 id="blog-title">{{ post.title }}</h1>
+        <h4 id="author-date">Posted by {{ post.author }} on {{ post.post_date }}</h4>
+        <div id="edit-buttons">
+            <a href="{% url 'home' %}" class="btn btn-sm btn-primary">Back</a>
+            {% if user.is_authenticated %}
+            <a href="{% url 'edit-blog' post.pk %}" class="btn btn-sm btn-warning">Edit</a>
+            <a href="{% url 'delete-blog' post.pk %}" class="btn btn-sm btn-danger">Delete</a>
+            {% endif %}
+        </div>
+    </div>
+    <div>
+        {% if "placeholder" in post.featured_image.url %}
+        <img class="card-img-top"
+            src="https://tilt.goombastomp.com/wp-content/uploads/2017/05/Star-Wars-Lightsaber-Duels-Ranked.jpg"
+            id="blog-header-image">
+        {% else %}
+        <img class="card-img-top" style="max-height: 450px; object-fit: cover;" src="{{ post.featured_image.url }}"
+            id="blog-header-image">
+        {% endif %}
+    </div>
+    <div id="main-details">
+        <p>{{ post.content|safe }}</p>
+    </div>
+</div>
 
 {% endblock%}
