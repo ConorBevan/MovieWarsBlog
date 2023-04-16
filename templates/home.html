@@ -4,18 +4,22 @@
 {% block content %}
 
 <section>
+    <!-- Jumbotron -->
+    <div id="intro" class="p-5 text-center">
+        <h1 class="mb-3 h2">Blog Posts</h1>
+        <p class="mb-3">Community driven website for all movie lovers</p>
+    </div>
+    <!-- Jumbotron -->
+    </header>
     <div class="container">
-        <div class="text-center">
-            <h1 class="p-4 text-black">Blog Posts</h1>
-            <h4 class="p-4 text-black">This blog page is for movie goers to share there thoughts on their favourite or most hated movies. To upload your review you must create an account.</h4>
-        </div>
         <div class="row">
             {% for post in object_list %}
-            <div class="col-lg-4 col-md-6 mb-2-6">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <article class="card card-style2">
                     <div class="card-img">
                         {% if "placeholder" in post.featured_image.url %}
-                        <img class="card-img-top" src="https://tilt.goombastomp.com/wp-content/uploads/2017/05/Star-Wars-Lightsaber-Duels-Ranked.jpg">
+                        <img class="card-img-top"
+                            src="https://tilt.goombastomp.com/wp-content/uploads/2017/05/Star-Wars-Lightsaber-Duels-Ranked.jpg">
                         {% else %}
                         <img class="card-img-top" src="{{ post.featured_image.url }}">
                         {% endif %}
@@ -24,11 +28,6 @@
                         <h3 class="h5"><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></h3>
                         <p class="display-30">Click on read more to open this blog post!</p>
                         <a href="{% url 'blog-detail' post.pk %}" class="read-more btn btn-primary">Read More</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul>
-                            <li><i class="fas fa-user"></i>Author - {{ post.author }}</li>
-                        </ul>
                     </div>
                 </article>
             </div>
