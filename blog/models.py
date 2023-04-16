@@ -7,7 +7,7 @@ from ckeditor.fields import RichTextField
 
 
 class Post(models.Model):
-    title = models.CharField(max_length=300, null=False)
+    title = models.CharField(max_length=50, null=False)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     content = RichTextField(blank=True, null=True)
     featured_image = CloudinaryField('image', default='placeholder')
