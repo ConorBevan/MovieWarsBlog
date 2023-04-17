@@ -2,14 +2,13 @@
 {% block title %}Add a New Blog{% endblock %}
 
 {% block content %}
-
 <!-- Add Posts -->
 {% if user.is_authenticated %}
 <div id="page-top">
     <h1>Add a New Post</h1>
     <!-- Form to Add Post -->
     <div class="form-group">
-        <form method="POST">
+        <form method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.media }}
             {{ form.as_p }}
