@@ -8,6 +8,8 @@ The Movie Wars Blog website is designed to be responsive website allowing visito
 
 - - - 
 
+## Contents
+
 * [User Experience](#User-Experience)
 * [Design](#Design)
 * [Site Features](#Site-Features)
@@ -77,7 +79,7 @@ Google Fonts was used for the following fonts:
 
 ### Imagery
 
-All blog header images were taken from the publishers websites. I have credited these in the credits section. They are uploaded to clodunairy storage.
+All blog header images were taken from the publishers websites. I have credited these in the credits section. They are uploaded to cloudinary storage.
 
 ### Wireframes
 
