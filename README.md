@@ -77,7 +77,7 @@ Wireframes were created for mobile and desktop. Here: [Home Page Wireframe](./as
 
 ## Database Diagram
 
-![Database Diagrama]()
+Linked Here: [Database Diagram](./assets/readme/database.png)
 
 - - - 
 
