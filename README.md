@@ -6,6 +6,16 @@ The Movie Wars Blog website is designed to be responsive website allowing visito
 
 [View Delployed Site]()
 
+- - - 
+
+* [User Experience](#User-Experience)
+* [Design](#Design)
+* [Site Features](#Site-Features)
+* [Technologies Used](#Technologies-Used)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
+
 - - -
 
 ## User Experience
@@ -73,9 +83,7 @@ All blog header images were taken from the publishers websites. I have credited 
 
 Wireframes were created for mobile and desktop. Here: [Home Page Wireframe](./assets/readme/wireframe.png)
 
-- - -
-
-## Database Diagram
+### Database Diagram
 
 Linked Here: [Database Diagram](./assets/readme/database.png)
 
