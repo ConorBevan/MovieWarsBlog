@@ -7,6 +7,9 @@ from ckeditor.fields import RichTextField
 
 
 class Post(models.Model):
+    """
+    Model for blog posts
+    """
     title = models.CharField(max_length=50, null=False)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     content = RichTextField(blank=True, null=True)
