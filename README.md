@@ -71,9 +71,7 @@ All blog header images were taken from the publishers websites. I have credited 
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop.
-
-[Home Page Wireframe]()
+Wireframes were created for mobile and desktop. Here: [Home Page Wireframe](./assets/readme/wireframe.png)
 
 - - -
 
@@ -262,7 +260,7 @@ to copy the URL
 ### Content
 
 * All movie blogs content was taken from [Robert Ebert ](https://www.rogerebert.com/)
-* The images were taken from [Google](https://images.google.com/)
+* The images were taken from the reviews written by [Robert Ebert ](https://www.rogerebert.com/)
 
 ### Information Sources / Resources
 
