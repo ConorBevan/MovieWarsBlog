@@ -6,6 +6,7 @@ from datetime import datetime, date
 from ckeditor.fields import RichTextField
 
 
+
 class Post(models.Model):
     """
     Model for blog posts

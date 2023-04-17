@@ -9,7 +9,7 @@
     <h1>Add a New Post</h1>
     <!-- Form to Add Post -->
     <div class="form-group">
-        <form method="POST" enctype="multipart/form-data">
+        <form method="POST">
             {% csrf_token %}
             {{ form.media }}
             {{ form.as_p }}
