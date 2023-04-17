@@ -29,7 +29,7 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
 
 ### CSS Validation
 
-![CSS Validation Result](./assets/readme/css-check.png)
+![CSS Validation Result](./assets/testme/css-check.png)
 
 ## Manual Testing
 ### Frontend
