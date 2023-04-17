@@ -4,9 +4,9 @@
 {% block content %}
 <!-- Delete Posts Section -->
 {% if user.is_authenticated %}
-<div id="blog-title">
-    <h1>Delete Blog</h1>
-    <h3>Are you sure you want to delete the blog: {{ post.title }}?</h3>
+<div id="page-top">
+    <h1>Delete Post</h1>
+    <h3>Are you sure you want to delete the following post: {{ post.title }}?</h3>
     <!-- Delete Posts Form -->
     <div class="form-group" id="delete-buttons">
         <form method="POST">

@@ -4,8 +4,8 @@
 {% block content %}
 <!-- Jumbotron -->
 <div class="p-5 text-center">
-    <h1 class="mb-3 h2">Blog Posts</h1>
-    <p class="mb-3 h5">This is a community driven website for all movie lovers. Please use this site repsonsibly.</p>
+    <h1 class="mb-3 h2">Movie Wars Blog Posts</h1>
+    <p class="mb-3 h5">This is a community driven blog website for all movie lovers. Please use this site repsonsibly. Below is a selection of posts posted by the community feel free to read any or contribute with your own work!</p>
 </div>
 <!-- List of Blogs -->
 <div class="container">
@@ -22,9 +22,9 @@
                         src="{{ post.featured_image.url }}">
                     {% endif %}
                 </div>
-                <div class="card-body bg-light">
+                <div class="card-body">
                     <h3 class="h5" id="home-title"><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></h3>
-                    <a href="{% url 'blog-detail' post.pk %}" class="read-more btn btn-success">Read More</a>
+                    <a href="{% url 'blog-detail' post.pk %}" class="read-more btn">Read More</a>
                 </div>
             </article>
         </div>
@@ -36,11 +36,11 @@
 <nav aria-label="Page navigation">
     <ul class="pagination justify-content-center">
         {% if page_obj.has_previous %}
-        <li><a href="?page={{ page_obj.previous_page_number }}" class="btn btn-lg btn-dark" id="pag-button">Back</a>
+        <li><a href="?page={{ page_obj.previous_page_number }}" class="btn btn-lg" id="pag-button">Back</a>
         </li>
         {% endif %}
         {% if page_obj.has_next %}
-        <li><a href="?page={{ page_obj.next_page_number }}" class="btn btn-lg btn-dark" id="pag-button">Next</a></li>
+        <li><a href="?page={{ page_obj.next_page_number }}" class="btn btn-lg" id="pag-button">Next</a></li>
         {% endif %}
     </ul>
 </nav>

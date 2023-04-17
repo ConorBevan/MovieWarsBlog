@@ -55,7 +55,7 @@ All functionality and development of this project were managed using GitHub whic
 
 ### Colour Scheme
 
-The website uses a simple colour layout used throughout the Movie Wars Blog. The colour scheme was based around using the [Boostrap](https://getbootstrap.com/docs/4.0/utilities/colors/).
+I wanted to keep the colour scheme in a formal/newpaper style. The colour palette is used is here: [coolors](https://coolors.co/000100-a1a6b4-94c5cc-b4d2e7-f8f8f8)
 
 ### Typography
 

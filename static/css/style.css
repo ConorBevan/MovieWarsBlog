@@ -11,6 +11,12 @@ body {
 /* Navbar */
 nav {
     font-family: 'Roboto', sans-serif;
+    color: #F8F8F8;
+}
+
+.new-nav {
+    background-color: #000100;
+    color: #F8F8F8;
 }
 
 /* Footer */
@@ -19,8 +25,18 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
-/* General Styling */
-#blog-title {
+.new-footer {
+    background-color: #000010;
+    color: #F8F8F8;
+}
+
+.copyright-footer {
+    background-color: #000010;
+    color: #F8F8F8;
+}
+
+/* Page Details */
+#page-top {
     margin-top: 50px;
 }
 
@@ -29,32 +45,22 @@ footer {
     margin-bottom: 25px;
 }
 
-.read-more {
-    margin-top: 10px;
+.card-body {
+    background-color: #F8F8F8;
 }
 
 #home-title a {
-    color: black;
+    color: #000010;
 }
 
 #home-title a:hover {
-    color: grey;
+    color: #B4D2E7;
     text-decoration: none;
-}
-
-#edit-buttons {
-    margin-bottom: 15px;
 }
 
 #author-date {
     margin-bottom: 20px;
     font-weight: 400;
-}
-
-#pag-button {
-    margin-bottom: 50px;
-    margin-top: 20px;
-    font-family: 'Playfair Display', serif;
 }
 
 #main-details {
@@ -70,6 +76,30 @@ footer {
     text-align: center;
 }
 
+/* Buttons */
+.read-more {
+    margin-top: 10px;
+    background-color: #B4D2E7;
+    color: #000100;
+}
+
+#edit-buttons {
+    margin-bottom: 15px;
+}
+
 #delete-buttons {
     margin-top: 20px;
+}
+
+#pag-button {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    background-color: #000010;
+    color: #F8F8F8;
+}
+
+#navi-button {
+    background-color: #000010;
+    color: #F8F8F8;
 }
