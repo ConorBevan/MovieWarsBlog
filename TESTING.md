@@ -27,14 +27,14 @@ were entered into the online checker and no errors were found in any of the cust
 Lighthouse was used to test Performance, Best Practices, Accessibility and SEO. 
 
 ##### Results:
-![Lighthouse Result]()
+* [Lighthouse Results](./assets/testme/lighthouse-results.png)
 
 ### HTML Validation
-![HTML Validation Result]()
+* [HTML Validation Results](./assets/testme/html-check.png)
 
 ### CSS Validation
 
-![CSS Validation Result](./assets/testme/css-check.png)
+* [CSS Validation Results](./assets/testme/css-check.png)
 
 ## Manual Testing
 
