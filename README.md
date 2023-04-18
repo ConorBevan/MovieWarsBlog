@@ -81,7 +81,7 @@ All blog header images were taken from the publishers websites. I have credited 
 
 Wireframes were created for mobile and desktop here: [Home Page Wireframe](./assets/readme/wireframe.png)
 
-### Database Diagram
+### Database Model
 
 Linked Here: [Database Diagram](./assets/readme/database.png)
 
