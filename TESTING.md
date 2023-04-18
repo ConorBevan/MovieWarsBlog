@@ -8,19 +8,19 @@ Python testing was done using the PEP8 Online to ensure there were no syntax err
 were entered into the online checker and no errors were found in any of the custom codes.
 
 #### MovieWarsBlog - blog
-[admin.py]()
-[apps.py]()
-[forms.py]()
-[models.py]()
-[tests.py]()
-[urls.py]()
-[views.py]()
+* [admin.py](./assets/testme/blog-pep8-admin)
+* [apps.py](./assets/testme/blog-pep8-apps)
+* [forms.py](./assets/testme/blog-pep8-forms)
+* [models.py](./assets/testme/blog-pep8-models)
+* [tests.py](./assets/testme/blog-pep8-tests)
+* [urls.py](./assets/testme/blog-pep8-urls)
+* [views.py](./assets/testme/blog-pep8-views)
 
 #### MovieWarsBlog - moviewars
-[asgi.py]()
-[settings.py]()
-[urls.py]()
-[wsgi.py]()
+* [asgi.py](./assets/testme/moviewars-pep8-asgi)
+* [settings.py](./assets/testme/moviewars-pep8-settings)
+* [urls.py](./assets/testme/moviewars-pep8-urls)
+* [wsgi.py](./assets/testme/moviewars-pep8-wsgi)
 
 
 ### Lighthouse
