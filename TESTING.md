@@ -52,4 +52,5 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
 
 ## Bugs
 
-* While I was developing the project I tried to add a blog image to my posts but was only displaying the placholder image. By adding an enctype to the form  it fixed this issue. 
+* While I was developing the project I tried to add a blog image to my posts but was only displaying the placholder image. By adding an enctype to the form it fixed this issue. 
+* While deploying I had major issues wth an etag that wouldnt let me deploy my project to heroku. After a lot of testing and editing I removed django ckeditor from my blog code entirely and the issue seems to have been resolved.
