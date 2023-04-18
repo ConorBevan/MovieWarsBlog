@@ -7,22 +7,27 @@ Testing took place place continuously throughout the development of the project.
 Python testing was done using the PEP8 Online to ensure there were no syntax errors in the project. All python files
 were entered into the online checker and no errors were found in any of the custom codes.
 
-##### Blog
+#### MovieWarsBlog - blog
+[admin.py]()
+[apps.py]()
+[forms.py]()
+[models.py]()
+[tests.py]()
+[urls.py]()
+[views.py]()
 
-List of images go here 
+#### MovieWarsBlog - moviewars
+[asgi.py]()
+[settings.py]()
+[urls.py]()
+[wsgi.py]()
 
-##### Moviewars
-
-List of images go here 
 
 ### Lighthouse
-Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on Desktop.
+Lighthouse was used to test Performance, Best Practices, Accessibility and SEO. 
 
-##### Desktop Results:
-![Lighthouse Mobile Result]()
-
-###### Mobile Results:
-![Lighthouse Desktop Result]()
+##### Results:
+![Lighthouse Result]()
 
 ### HTML Validation
 ![HTML Validation Result]()
@@ -32,6 +37,7 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
 ![CSS Validation Result](./assets/testme/css-check.png)
 
 ## Manual Testing
+
 ### Frontend
 * The Signup, Login and Logout system has no issues and is working.
 * The Blog posts page is working properly. It display information and you can interact with blog posts. 

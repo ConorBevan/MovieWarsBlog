@@ -16,9 +16,9 @@
                 <div class="card-img">
                     {% if "placeholder" in post.featured_image.url %}
                     <img class="card-img-top" style="max-height: 200px; min-height: 200px; object-fit: cover;"
-                        src="https://tilt.goombastomp.com/wp-content/uploads/2017/05/Star-Wars-Lightsaber-Duels-Ranked.jpg">
+                        src="https://tilt.goombastomp.com/wp-content/uploads/2017/05/Star-Wars-Lightsaber-Duels-Ranked.jpg" alt="Default Post Image">
                     {% else %}
-                    <img class="card-img-top" style="max-height: 200px; min-height: 200px; object-fit: cover;"
+                    <img class="card-img-top" style="max-height: 200px; min-height: 200px; object-fit: cover;" alt="Post Image"
                         src="{{ post.featured_image.url }}">
                     {% endif %}
                 </div>

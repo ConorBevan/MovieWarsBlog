@@ -1,10 +1,10 @@
 # Welcome to **[Movie Wars Blog](deployedlinkhere)**
 
-The Movie Wars Blog website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to look and create a number of movie reviews.
+The Movie Wars Blog website is a responsive website that can be view on a range of devices. The purpose of the site is to allow visitors to view and create movie reviews.
 
-![Movie Wars Blog on many devices]()
+[View Delployed Site](https://movie-wars-blog.herokuapp.com/)
 
-[View Delployed Site]()
+![Movie Wars Blog on many devices](./assets/readme/responsive-view.png)
 
 - - - 
 
@@ -223,8 +223,7 @@ Testing was conducted continuously throughout the development of this project. M
 ### Deployment of This Project
 
 1. Log in to [Heroku](https://id.heroku.com) or create an account
-2. On the main page click the button labelled New in the top right corner and from the drop-down menu select Create New
-App
+2. On the main page click the button labelled New in the top right corner and from the drop-down menu select Create New App
 3. You must enter a unique app name
 4. Next select your region
 5. Click on the Create App button
@@ -242,8 +241,7 @@ App
 ### Final Deployment 
 
 1. When development is complete change the debug setting to: `DEBUG = False` in settings.py
-2. In this project the summernote editor was used so for this to work in Heroku add: `X_FRAME_OPTIONS = SAMEORIGIN `to
-   settings.py.
+2. In this project the summernote editor was used so for this to work in Heroku add: `X_FRAME_OPTIONS = SAMEORIGIN` to settings.py.
 3. In Heroku settings, delete the config vars for `DISABLE_COLLECTSTATIC = 1`
 
 ### Forking This Project
