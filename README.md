@@ -1,8 +1,8 @@
-# Welcome to **[Movie Wars Blog](deployedlinkhere)**
+# Welcome to [Movie Wars Blog](https://movie-wars-blog.herokuapp.com/)
 
 The Movie Wars Blog website is a responsive website that can be view on a range of devices. The purpose of the site is to allow visitors to view and create movie reviews.
 
-[View Delployed Site](https://movie-wars-blog.herokuapp.com/)
+You can view the deployed site here: [Delployed Site](https://movie-wars-blog.herokuapp.com/)
 
 ![Movie Wars Blog on many devices](./assets/readme/responsive-view.png)
 
@@ -21,10 +21,6 @@ The Movie Wars Blog website is a responsive website that can be view on a range 
 - - -
 
 ## User Experience
-
-### Key information for the site
-
-The site is a place for people to come and view other users submitted reviews/blogs about new or old movies. They can also sumbit their own revierw if they want to share their thoughts on a film of their choice.
 
 ### User Stories
 
@@ -73,7 +69,7 @@ I wanted to keep the colour scheme in a formal/newpaper style. The colour palett
 
 Google Fonts was used for the following fonts:
 
-* Playfair is used for the boddy on the site.
+* Playfair is used for the body on the site.
 
 * Roboto is used for the navbar and footer on the site. 
 
@@ -83,7 +79,7 @@ All blog header images were taken from the publishers websites. I have credited 
 
 ### Wireframes
 
-Wireframes were created for mobile and desktop. Here: [Home Page Wireframe](./assets/readme/wireframe.png)
+Wireframes were created for mobile and desktop here: [Home Page Wireframe](./assets/readme/wireframe.png)
 
 ### Database Diagram
 
@@ -93,40 +89,39 @@ Linked Here: [Database Diagram](./assets/readme/database.png)
 
 ## Site Features
 
-The website is comprised of five pages, three of which are accessible when not logged in and other two appear when logged in (home page, books page & contact us page).
+The website is comprised of five pages, three of which are accessible when not logged in and other two appear when logged in (homepage, Register, Login, Add Post, Logout).
 
 * All Pages on the website have:
   * A responsive navigation bar at the top which allows the user to navigate through the site. In the left of the navigation bar is the Movie Wars Blog logo. Beside the logo in the navigation bar are the links to the websites pages (home, add post, register, login and logout).
-  * A footer which contains social media icon links to Instagram, Facebook, LinkedIn, Twitter and Github. There a copyright mark underneatyh the icons.
+  In the top right of the navbar when logged in is a message letting you know you are logged in. 
+  * A footer which contains social media icon links to Instagram, Facebook, LinkedIn, Twitter and Github. There is also a copyright mark underneath the icons.
 
  ### Home Page
 
  ![Home Page](./assets/readme/home-page.png)
 
   * Page Title
-  This states you are on the blog post section.
-  * About Us Section
-  This section briefly explains what the page is about.
+  This states you are on the blog post section. Also a smnall about us peiece underneath the title to let users know what the site is about.
   * Blog Posts
-  This section is a list of all the blogs/reviews uploaded to the site.
+  This section is where the list of all the blogs/reviews are uploaded to the site.
 
 ### Register Page
 
 ![Register Page](./assets/readme/register.png)
 
-  * This section is where new ueasers can sign up to acces hidden features in the site.
+  * This section is where new users can register to access hidden features in the site. Such as adding, editing and deleting posts.
 
 ### Login Page
 
 ![Login Page](./assets/readme/login.png)
 
-  * This section is where new users can sign up to acces hidden features in the site.
+  * This section is where new users can login to acces the hidden features in the site.
 
 ### Blog Deatils Page
 
 ![Blog Details Page](./assets/readme/blog-details.png)
 
-  * This section is where a user can view the contents of the blog which includes title, author, date posted, header image and content. If a user is logged in they will be able to edit and delete blog posts.
+  * This section is where a user can view the contents of a blog which includes title, author, date posted, header image and content. If a user is logged in they will be able to edit and delete blog posts.
 
 ### Add Post Page
 
@@ -138,7 +133,7 @@ The website is comprised of five pages, three of which are accessible when not l
 
 ![Edit Post Page](./assets/readme/edit-post.png)
 
-  * This section is where logged in users can edit the blog of their choice. 
+  * This section is where logged in users can edit the blog of their choice and change the title, author, content and image. 
 
 ### Delete Post Page
 
@@ -156,11 +151,11 @@ The website is comprised of five pages, three of which are accessible when not l
 
 ![Admin Panel](./assets/readme/admin.png)
 
-  * This section is where as an admin/superuser I have full access to CRUD functionality so I can view, create, edit and delete posts.
+  * This section is where as a admin/superuser I have full access to CRUD functionality so I can view, create, edit and delete posts.
 
 ### Future Implementations.
   * Only allow a user to edit and delete posts that is theirs. 
-  * Add category section to filter them in movie genres.
+  * Add category section to filter the blogs into movie genres.
 
 ### Accessibility
 
@@ -193,7 +188,6 @@ I have been mindful during coding to ensure that the website is as accessible an
 * Cloudinary - Used to host media 
 * Psycopg2 - As an adaptor for Python and PostgreSQL databases
 * Django Allauth - For authentication, registration, account management
-* Django CKEditor - As a text editor 
 
 - - -
 
@@ -241,18 +235,18 @@ Testing was conducted continuously throughout the development of this project. M
 ### Final Deployment 
 
 1. When development is complete change the debug setting to: `DEBUG = False` in settings.py
-2. In this project the summernote editor was used so for this to work in Heroku add: `X_FRAME_OPTIONS = SAMEORIGIN` to settings.py.
+2. In this project if summernote editor was used for this to work in Heroku add: `X_FRAME_OPTIONS = SAMEORIGIN` to settings.py.
 3. In Heroku settings, delete the config vars for `DISABLE_COLLECTSTATIC = 1`
 
 ### Forking This Project
 
-1. Open [GitHub](https://github.com/PedroCristo/portfolio_project_4)
+1. Open [GitHub](https://github.com/ConorBevan/MovieWarsBlog)
 2. Find the 'Fork' button at the top right of the page
 3. Once you click the button the fork will be in your repository
 
 ### Cloning This Project
 
-1. Open [GitHub](https://github.com/PedroCristo/portfolio_project_4)
+1. Open [GitHub](https://github.com/ConorBevan/MovieWarsBlog)
 2. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order
 to copy the URL
 3. Once you click the button the fork will be in your repository
@@ -267,15 +261,13 @@ to copy the URL
 
 ### Content
 
-* All movie blogs content was taken from [Robert Ebert ](https://www.rogerebert.com/)
-* The images were taken from the reviews written by [Robert Ebert ](https://www.rogerebert.com/)
+* All the blog content was taken from [Robert Ebert ](https://www.rogerebert.com/)
+* The images were taken from the images used in [Robert Ebert ](https://www.rogerebert.com/) reviews.
 
 ### Information Sources / Resources
 
 * [W3Schools - Python](https://www.w3schools.com/python/)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Django Project](https://www.djangoproject.com/)
+* [Help in Design of Cards](https://www.youtube.com/watch?v=PwEvMY7nnY8)
 
-### Honourable Mentions
-
-* Special thanks to my mentor Jubril Akolade for his assistance throughout this project.

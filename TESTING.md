@@ -1,13 +1,9 @@
-# Testing
-Back to the [README](README.md)
+# Testing - Back to the [README](README.md)
 
-Testing took place place continuously throughout the development of the project.
+## Python Validation - PEP8
+Python testing was done using the PEP8 Online to ensure there were no syntax errors in the project. All python files were entered into the online checker and no errors were found in any of the custom codes.
 
-### Python Validation - PEP8
-Python testing was done using the PEP8 Online to ensure there were no syntax errors in the project. All python files
-were entered into the online checker and no errors were found in any of the custom codes.
-
-#### MovieWarsBlog - blog
+### MovieWarsBlog - blog
 * [admin.py](./assets/testme/blog-pep8-admin.png)
 * [apps.py](./assets/testme/blog-pep8-apps.png)
 * [forms.py](./assets/testme/blog-pep8-forms.png)
@@ -16,25 +12,23 @@ were entered into the online checker and no errors were found in any of the cust
 * [urls.py](./assets/testme/blog-pep8-urls.png)
 * [views.py](./assets/testme/blog-pep8-views.png)
 
-#### MovieWarsBlog - moviewars
+### MovieWarsBlog - moviewars
 * [asgi.py](./assets/testme/moviewars-pep8-asgi.png)
 * [settings.py](./assets/testme/moviewars-pep8-settings.png)
 * [urls.py](./assets/testme/moviewars-pep8-urls.png)
 * [wsgi.py](./assets/testme/moviewars-pep8-wsgi.png)
 
-
-### Lighthouse
+## Lighthouse
 Lighthouse was used to test Performance, Best Practices, Accessibility and SEO. 
 
-##### Results:
 * [Lighthouse Results](./assets/testme/lighthouse-results.png)
 
-### HTML Validation
-Html code all passed bar this one error that came up saying it had occured 5 times in my code but as shown [here](./assets/testme/html-check-info.png) i only use this id once in my html code. 
+## HTML Validation
+Html code all passed bar this one error that came up saying I used a duplicate ID 5 times in my code but as shown [here](./assets/testme/html-check-info.png) I only use this ID once in my html code. Whihc is only used to style the headings of the blogs on the card body on the homepage.
 
 * [HTML Validation Results](./assets/testme/html-check.png)
 
-### CSS Validation
+## CSS Validation
 
 * [CSS Validation Results](./assets/testme/css-check.png)
 
