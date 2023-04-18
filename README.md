@@ -89,7 +89,7 @@ Linked Here: [Database Diagram](./assets/readme/database.png)
 
 ## Site Features
 
-The website is comprised of five pages, three of which are accessible when not logged in and other two appear when logged in (homepage, Register, Login, Add Post, Logout).
+The website is comprised of five pages, three of which are accessible when not logged in and other two appear when logged in (Homepage, Register, Login, Add Post, Logout).
 
 * All Pages on the website have:
   * A responsive navigation bar at the top which allows the user to navigate through the site. In the left of the navigation bar is the Movie Wars Blog logo. Beside the logo in the navigation bar are the links to the websites pages (home, add post, register, login and logout).
@@ -101,7 +101,7 @@ The website is comprised of five pages, three of which are accessible when not l
  ![Home Page](./assets/readme/home-page.png)
 
   * Page Title
-  This states you are on the blog post section. Also a smnall about us peiece underneath the title to let users know what the site is about.
+  This states you are on the blog post section. Also a small about us section underneath the homepage title to let users know what the site is about.
   * Blog Posts
   This section is where the list of all the blogs/reviews are uploaded to the site.
 
@@ -154,8 +154,7 @@ The website is comprised of five pages, three of which are accessible when not l
   * This section is where as a admin/superuser I have full access to CRUD functionality so I can view, create, edit and delete posts.
 
 ### Future Implementations.
-  * Only allow a user to edit and delete posts that is theirs. 
-  * Add category section to filter the blogs into movie genres.
+  * Only allow a user to edit and delete posts that they created. 
 
 ### Accessibility
 
@@ -184,10 +183,10 @@ I have been mindful during coding to ensure that the website is as accessible an
 * Bootstrap - Framework used to style the site. 
 * Google Fonts - To import the fonts used on the website.
 * Font Awesome - For the iconography on the website.
-* Gunicorn - As the server for Heroku
-* Cloudinary - Used to host media 
-* Psycopg2 - As an adaptor for Python and PostgreSQL databases
-* Django Allauth - For authentication, registration, account management
+* Gunicorn - As the server for Heroku.
+* Cloudinary - Used to host media.
+* Psycopg2 - As an adaptor for Python and PostgreSQL databases.
+* Django Allauth - For authentication, registration, account management.
 
 - - -
 
@@ -201,59 +200,58 @@ Testing was conducted continuously throughout the development of this project. M
 
 ### Creating the Django app
 
-1. Go to the Code Institute Gitpod Full Template [Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-2. Click on Use This Template
-3. Once the template is available in your repository click on Gitpod
-4. When the image for the template and the Gitpod are ready open a new terminal to start a new Django App
-5. Install Django and gunicorn: `pip3 install django gunicorn`
-6. Install supporting database libraries dj_database_url and psycopg2 library: `pip3 install dj_database_url psycopg2`
-7. Create file for requirements: in the terminal window type `pip freeze --local > requirements.txt`
-8. Create project: in the terminal window type django-admin startproject your_project_name
-9. Create app: in the terminal window type python3 manage.py startapp your_app_name
-10. Add app to the list of installed apps in settings.py file: you_app_name
-11. Migrate changes: in the terminal window type python3 manage.py migrate
-12. Run the server to test if the app is installed, in the terminal window type python3 manage.py runserver
+1. Go to the Code Institute Gitpod Full [Template.](https://github.com/Code-Institute-Org/gitpod-full-template).
+2. Click on Use This Template.
+3. Once the template is available in your repository click on Gitpod.
+4. When the image for the template and the Gitpod are ready open a new terminal to start a new Django App.
+5. Install Django and gunicorn: `pip3 install django gunicorn`.
+6. Install supporting database libraries dj_database_url and psycopg2 library: `pip3 install dj_database_url psycopg2`.
+7. Create file for requirements: in the terminal window type `pip freeze --local > requirements.txt`.
+8. Create project: in the terminal window type django-admin startproject your_project_name.
+9. Create app: in the terminal window type python3 manage.py startapp your_app_name.
+10. Add app to the list of installed apps in settings.py file: you_app_name.
+11. Migrate changes: in the terminal window type python3 manage.py migrate.
+12. Run the server to test if the app is installed, in the terminal window type python3 manage.py runserver.
 
 ### Deployment of This Project
 
-1. Log in to [Heroku](https://id.heroku.com) or create an account
-2. On the main page click the button labelled New in the top right corner and from the drop-down menu select Create New App
-3. You must enter a unique app name
-4. Next select your region
-5. Click on the Create App button
-6. Click in resources and select Heroku Postgres database
-7. Add your config vars 
-8. The next page is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars
-9. Next, scroll down to the Buildpack section click Add Buildpack select python and click Save Changes
-10. Scroll to the top of the page and choose the Deploy tab
-11. Select Github as the deployment method
-12. Confirm you want to connect to GitHub
-13. Search for the repository name and click the connect button
-14. Scroll to the bottom of the deploy page and select the preferred deployment type
-15. Click either Enable Automatic Deploys for automatic deployment when you push updates to Github
+1. Log in to [Heroku](https://id.heroku.com) or create an account.
+2. On the main page click the button labelled New in the top right corner and from the drop-down menu select Create New App.
+3. You must enter a unique app name.
+4. Next select your region.
+5. Click on the Create App button.
+6. Click in resources and select Heroku Postgres database.
+7. Add your config vars.
+8. The next page is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars.
+9. Next, scroll down to the Buildpack section click Add Buildpack select python and click Save Changes.
+10. Scroll to the top of the page and choose the Deploy tab.
+11. Select Github as the deployment method.
+12. Confirm you want to connect to GitHub.
+13. Search for the repository name and click the connect button.
+14. Scroll to the bottom of the deploy page and select the preferred deployment type.
+15. Click either Enable Automatic Deploys for automatic deployment when you push updates to Github.
 
 ### Final Deployment 
 
-1. When development is complete change the debug setting to: `DEBUG = False` in settings.py
+1. When development is complete change the debug setting to: `DEBUG = False` in settings.py.
 2. In this project if summernote editor was used for this to work in Heroku add: `X_FRAME_OPTIONS = SAMEORIGIN` to settings.py.
-3. In Heroku settings, delete the config vars for `DISABLE_COLLECTSTATIC = 1`
+3. In Heroku settings, delete the config vars for `DISABLE_COLLECTSTATIC = 1`.
 
 ### Forking This Project
 
-1. Open [GitHub](https://github.com/ConorBevan/MovieWarsBlog)
-2. Find the 'Fork' button at the top right of the page
-3. Once you click the button the fork will be in your repository
+1. Open [GitHub.](https://github.com/ConorBevan/MovieWarsBlog)
+2. Find the 'Fork' button at the top right of the page.
+3. Once you click the button the fork will be in your repository.
 
 ### Cloning This Project
 
-1. Open [GitHub](https://github.com/ConorBevan/MovieWarsBlog)
-2. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order
-to copy the URL
-3. Once you click the button the fork will be in your repository
-4. Open a new terminal
-5. Change the current working directory to the location that you want the cloned directory
-6. Type 'git clone' and paste the URL copied in step 3
-7. Press 'Enter' and the project is cloned
+1. Open [GitHub.](https://github.com/ConorBevan/MovieWarsBlog)
+2. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL.
+3. Once you click the button the fork will be in your repository.
+4. Open a new terminal.
+5. Change the current working directory to the location that you want the cloned directory.
+6. Type 'git clone' and paste the URL copied in step 3.
+7. Press 'Enter' and the project is cloned.
 
 - - - 
 
@@ -261,7 +259,7 @@ to copy the URL
 
 ### Content
 
-* All the blog content was taken from [Robert Ebert ](https://www.rogerebert.com/)
+* All the blog content was taken from [Robert Ebert. ](https://www.rogerebert.com/)
 * The images were taken from the images used in [Robert Ebert ](https://www.rogerebert.com/) reviews.
 
 ### Information Sources / Resources
@@ -269,5 +267,5 @@ to copy the URL
 * [W3Schools - Python](https://www.w3schools.com/python/)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Django Project](https://www.djangoproject.com/)
-* [Help in Design of Cards](https://www.youtube.com/watch?v=PwEvMY7nnY8)
+* [Idea of using Cards](https://www.youtube.com/watch?v=PwEvMY7nnY8)
 
