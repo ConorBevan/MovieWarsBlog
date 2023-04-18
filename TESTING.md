@@ -35,22 +35,32 @@ Html code all passed bar this one error that came up saying I used a duplicate I
 ## Manual Testing
 
 ### Frontend
-* The Signup, Login and Logout system has no issues and is working.
-* The Blog posts page is working properly. It display information and you can interact with blog posts. 
+* The Signup, Login and Logout system has no issues and is working. If you try to submit without filling in inputs django allauth has built in require inputs fild to be filled.
+* The Blog posts page is working properly. It display all the blogs.
+* If you click on read more it displays the blog details page.
+* Back button brings you back to home page when in blog details page.
+* If you click on register it brings you too the register form.
+* If you click on login it brings you to the login form.
+* When logged in nave bar changes and add post and logout is displayed to the user. Also in top right of navbar a message lets the user know they are logged in.
+* If you click on add post you can add a new post.
+* If you add an image tio the post it will be displayed, if not plaeholder image will be displayed.
+* If you click on blog details page you when logged in you now have option to edit or delete a blog.
+* In the edit page you can change any of the inputs.
+* In the delete page you can delete the selected blog.
+* If you want to logout of profile clcik logout and logout. This works fine.
 * All the internal links are working and bring the user to the right page on the website.
 * All the external links are working and bring the user to the right social media page by 
   opening a new browser tab.
-* The drop-down menu in the navbar when using mobile works.
+* The drop-down menu when on mobile devices works fine.
 * The pagination system is working. It adds another page after 6 posts on the page.
-* On the Post Details Page, if you are not logged in only back button is displayed to return to homepage. If you are logged in edit and delete button appear 
-  and are working threy bring you to the correct page.  
-* The functionality to delete a post is working without issues. 
-* The functionality to update a post is working without issues. Allows user to update the title, author, blog content and image.
-* The CRUD functionality is working without issues.
+* The CRUD functionality is working without any issues.
 
 ### Backend/Admin Panel
 * I have tested the Admin Panel repeatedly since the start of the project development and is working wiht no issues.
-* When an author is posting a new blog all, it can be edited and deleted in the admin panel.
+* All normal functionality is available and working.
+* You can post new blogs.
+* You can edit blogs.
+* You can remove blogs.
 
 ## Bugs
 
