@@ -55,4 +55,4 @@ Html code all passed bar this one error that came up saying I used a duplicate I
 ## Bugs
 
 * While I was developing the project I tried to add a blog image to my posts but was only displaying the placholder image. By adding an enctype to the form it fixed this issue. 
-* While deploying I had major issues wth an etag that wouldnt let me deploy my project to heroku. After a lot of testing and editing I removed django ckeditor from my blog code entirely and the issue seems to have been resolved.
+* While deploying I had major issues wth an etag that wouldnt let me deploy my project to heroku. After a lot of testing and editing a using my last call with my mentor and a long time with tutor support to try and fix the issue. I ended up removing django ckeditor from my blog code entirely and the issue has been resolved. And I can now acces my deployed site and no longer get an etag error.
