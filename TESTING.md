@@ -30,6 +30,8 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO.
 * [Lighthouse Results](./assets/testme/lighthouse-results.png)
 
 ### HTML Validation
+Html code all passed bar this one error that came up saying it had occured 5 times in my code but as shown [here](./assets/testme/html-check-info.png) i only use this id once in my html code. 
+
 * [HTML Validation Results](./assets/testme/html-check.png)
 
 ### CSS Validation
