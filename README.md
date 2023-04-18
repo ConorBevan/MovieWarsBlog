@@ -253,6 +253,10 @@ Testing was conducted continuously throughout the development of this project. M
 6. Type 'git clone' and paste the URL copied in step 3.
 7. Press 'Enter' and the project is cloned.
 
+### Note
+
+I had a lot of issues when deploying this project due to an etag error. I had to use the full length of my mentor session and a whole evening of tutor assistance to try and reslove the isuuse at hand. 
+
 - - - 
 
 ## Credits
