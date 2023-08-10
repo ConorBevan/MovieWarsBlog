@@ -29,9 +29,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = 'DEBUG' in os.environ
 
-ALLOWED_HOSTS = ['movie-wars-blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['movie-wars-blog.herokuapp.com', '8000-conorbevan-moviewarsblo-isaunsuvrlk.ws-eu102.gitpod.io', 'localhost']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 

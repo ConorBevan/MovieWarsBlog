@@ -3,7 +3,7 @@
 
 {% block content %}
 <!-- Delete Posts Section -->
-{% if user.is_authenticated %}
+{% if request.user.is_superuser %}
 <div id="page-top">
     <h1>Delete Post</h1>
     <h3>Are you sure you want to delete the following post: {{ post.title }}?</h3>

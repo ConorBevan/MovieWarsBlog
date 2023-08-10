@@ -8,7 +8,7 @@
     <h4 id="author-date">Posted by {{ post.author }} on {{ post.post_date }}</h4>
     <div id="edit-buttons">
         <a href="{% url 'home' %}" class="btn btn-sm" id="navi-button">Back</a>
-        {% if user.is_authenticated %}
+        {% if request.user.is_superuser %}
         <a href="{% url 'edit-blog' post.pk %}" class="btn btn-sm btn-warning">Edit</a>
         <a href="{% url 'delete-blog' post.pk %}" class="btn btn-sm btn-danger">Delete</a>
         {% endif %}

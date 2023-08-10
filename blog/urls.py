@@ -1,6 +1,5 @@
 from django.urls import path
 from .views import HomeView, BlogDetailView, AddPostView, EditView, DeletePost
-
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),
     path('Blogs/<int:pk>', BlogDetailView.as_view(), name='blog-detail'),

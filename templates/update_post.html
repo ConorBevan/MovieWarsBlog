@@ -3,7 +3,7 @@
 
 {% block content %}
 <!-- Edit Section -->
-{% if user.is_authenticated %}
+{% if request.user.is_superuser %}
 <div id="page-top">
     <h1>Edit Post</h1>
     <!-- Edit Posts -->
