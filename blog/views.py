@@ -4,7 +4,6 @@ from django.http import HttpResponse
 from .models import Post
 from .forms import CreatePost
 from django.urls import reverse_lazy
-from django.contrib.auth.decorators import login_required
 
 
 class HomeView(ListView):
