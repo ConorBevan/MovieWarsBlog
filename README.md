@@ -110,18 +110,21 @@ The website is comprised of five pages, three of which are accessible when not l
 ![Register Page](./assets/readme/register.png)
 
   * This section is where new users can register to access hidden features in the site. Such as adding, editing and deleting posts.
+  * User is alreted when the regsiter 
 
 ### Login Page
 
 ![Login Page](./assets/readme/login.png)
 
   * This section is where new users can login to acces the hidden features in the site.
+  * User is alreted when they login
 
 ### Blog Deatils Page
 
 ![Blog Details Page](./assets/readme/blog-details.png)
 
-  * This section is where a user can view the contents of a blog which includes title, author, date posted, header image and content. If a user is logged in they will be able to edit and delete blog posts.
+  * This section is where a user can view the contents of a blog which includes title, author, date posted, header image and content. 
+  * Only an admin/superuser can edit and delete blog posts.
 
 ### Add Post Page
 
@@ -133,19 +136,20 @@ The website is comprised of five pages, three of which are accessible when not l
 
 ![Edit Post Page](./assets/readme/edit-post.png)
 
-  * This section is where logged in users can edit the blog of their choice and change the title, author, content and image. 
+  * This section is where admins can edit the blog of their choice and change the title, author, content and image. 
 
 ### Delete Post Page
 
 ![Delete Post Page](./assets/readme/delete.png)
 
-  * This section is where logged in users can delete a blog.
+  * This section is where admins can delete a blog.
 
 ### Logout Page
 
 ![Logout Page](./assets/readme/logout.png)
 
-  * This section is where users can logout of their accounts. 
+  * This section is where users can logout of their accounts.
+  * User is alreted when they logout
 
 ### Admin Panel
 
@@ -153,8 +157,12 @@ The website is comprised of five pages, three of which are accessible when not l
 
   * This section is where as a admin/superuser I have full access to CRUD functionality so I can view, create, edit and delete posts.
 
+### User Feedback on CRUD Functionalities 
+
+  * Users get feedback on their actions whethher thatsd creating a new blog or admin gets to edit and delete blogs they will recieve feedback od these actions. 
+
 ### Future Implementations.
-  * Only allow a user to edit and delete posts that they created. 
+  * Only allow a user to edit and delete posts that they have created. 
 
 ### Accessibility
 
