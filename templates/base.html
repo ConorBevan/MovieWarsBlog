@@ -69,6 +69,14 @@
     {% endblock %}
   </div>
 
+  {% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
   <!-- Footer -->
   <footer class="text-center text-white new-footer">
     <div class="container pt-2">
@@ -95,6 +103,7 @@
       © 2023 Copyright: Conor Bevan
     </div>
   </footer>
+
   <script>
     setTimeout(function () {
         let messages = document.getElementById('msg');
